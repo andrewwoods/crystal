@@ -1,0 +1,6 @@
+"98109", "PASS", "A Seattle zipcode"
+"981O9", "FAIL", "Looks like Seattle zipcode, but O should be 0 - Numbers Only!"
+"07032", "PASS", "Somewhere in New Jersey"
+"10002", "PASS", "Somewhere in New York City"
+"00000", "PASS", "Not a real zipcode"
+"V5K 0A1", "FAIL", "This is a Vancouver, Canada Postal code"

@@ -16,24 +16,22 @@ check for characters and punctuation in the correct places.
 	* ISBN
 	* UPC
 	* Credit Card Numbers
-	* [country code]
-		* currency.txt
-		* phone.txt
-		* postal.txt
-		* currency.txt
+	* [country code].txt
+		* phone
+		* postal
+		* currency
 	* internet
 		* email
 		* hostnames
 		* ip4 addresses
 		* ip6 addresses
-* test data
+* data
 	* ISBN
 	* UPC
 	* Credit Card Numbers
 	* [country code]
-		* currency.txt
-		* phone.txt
-		* postal.txt
+		* phone-loose.csv
+		* postal.csv
 		* currency.txt
 	* internet
 		* email
