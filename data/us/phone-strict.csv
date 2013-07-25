@@ -1,3 +1,4 @@
 "206-555-1212", "PASS", "The number for Seattle information"
 "1-206-555-1212", "PASS", "The number for Seattle information using international format"
 "+1-206-555-1212", "PASS", "The number for Seattle information using international format"
+"106-123-4567", "FAIL", "The area code starts with a 1, which is not allowed"

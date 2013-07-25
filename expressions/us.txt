@@ -4,9 +4,15 @@ US - United States Regular Expressions
 
 ZIP codes ( aka Postal Codes )
 --------------------------------------------------------------------------------
-/\d{5}/ 
+/^\d{5}([\-]\d{4})?$/
+
 
 Phone Numbers
 --------------------------------------------------------------------------------
-/^\d{3}-\d{3}-\d{4}$/  Loose
+Loose /^(?:\+1\-)?\d{3}-\d{3}-\d{4}$/  Loose
+Strict /^(\+?1[\-\s\.])?[2-9]\d\d[\-\s\.][2-9]\d\d[\-\s\.]\d{4}$/ 
+
+http://en.wikipedia.org/wiki/North_American_Numbering_Plan
+
+
 
