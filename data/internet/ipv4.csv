@@ -1,0 +1,8 @@
+"1.1.1.1", "PASS", ""
+"127.0.0.1", "PASS", "the dotted quad address for localhost"
+"192.168.1.1", "PASS", "router address for a known private Class C IP address range"
+"65.122.127.49", "PASS", "IP address for whitehouse.gov"
+"66.155.40.249", "PASS", "IP address for www.wordpress.org
+"255.255.255.254", "PASS", "The last real address on the Internet"
+"255.255.255.255", "PASS", "The broadcast address for the last subnet on the Internet"
+"255.255.255.256", "FAIL", "the last quad of 256 is invalid. must be between 0-255"

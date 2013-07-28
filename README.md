@@ -13,31 +13,32 @@ a good example. A strict email regex would be RFC compliant, while loose would
 check for characters and punctuation in the correct places. 
 
 * expressions
-	* ISBN
-	* UPC
-	* Credit Card Numbers
+	* commerce.txt 
+		* ISBN
+		* UPC
+		* Credit Card Numbers
 	* [country code].txt
 		* phone
 		* postal
-		* currency
-	* internet
+	* internet.txt
 		* email
 		* hostnames
 		* ip4 addresses
 		* ip6 addresses
 * data
-	* ISBN
-	* UPC
-	* Credit Card Numbers
-	* [country code]
+	* commerce  [needed]
+		* isbn.csv  [needed]
+		* upc.csv [needed]
+		* credit-card.csv [needed]
+	* [country code]  {New countries needed all the time}
 		* phone-loose.csv
 		* postal.csv
-		* currency.txt
+		* currency.csv
 	* internet
-		* email
-		* hostnames
-		* ip4 addresses
-		* ip6 addresses
+		* email.csv [needed]
+		* hostnames.csv [needed]
+		* ip4.csv 
+		* ip6.csv [needed]
 
 
 
