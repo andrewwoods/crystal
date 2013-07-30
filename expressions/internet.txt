@@ -10,12 +10,21 @@ Loose /^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix
 Hostname
 --------------------------------------------------------------------------------
 /^(([a-zA-Z0-9\x2d]{1,63}\x2e)*[a-zA-Z0-9\x2d]{1,63}){1,254}$/
+/^([a-zA-Z0-9]([-\.a-zA-Z0-9]+\.)+)([a-zA-Z]{2,6})$/
+
 
 
 IPv4 Address
 --------------------------------------------------------------------------------
-Loose \d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}
-Strict ^([01]?\d\d?|2[0-4]\d|25[0-5])(\.([01]?\d\d?|2[0-4]\d|25[0-5])){3}$
+Loose /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/
+Strict /^([01]?\d\d?|2[0-4]\d|25[0-5])(\.([01]?\d\d?|2[0-4]\d|25[0-5])){3}$/
 
+URL
+--------------------------------------------------------------------------------
+The url is a actually a combination of hostnames, IP addresses, Port numbers, 
+and file paths, and a query string, with a protocol scheme prepended. Come back 
+to this when other criteria have better regular expressions
+
+(https?|s?ftp|telnet|ssh):\/\/\w+(\.\w+)+(:\d{1,5})?([\/\.a-zA-Z0-9]+)?
 
 
