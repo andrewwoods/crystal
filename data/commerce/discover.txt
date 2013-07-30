@@ -1,0 +1,5 @@
+"6011-0160-1101-6011","PASS","Discover card with hyphens"
+"6011 0009 9013 9424","PASS","Discover card with optional spaces"
+"6011000000000004","PASS","Discover card with numbers only"
+"7011000995500000","FAIL","Should be a Discover credit card but starts with a 7"
+"6500-0000-0000-002","FAIL","Discover only has 15 digits "

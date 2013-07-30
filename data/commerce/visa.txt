@@ -1,0 +1,5 @@
+"4444444444444448", "PASS", "VISA test card - numbers only"
+"4444-4244-4444-4440", "PASS", "VISA test card - numbers with hyphens"
+"4444 4144 4444 4441", "PASS", "VISA test card - numbers with spaces"
+"4012-8888 8888-1881", "PASS", "VISA test card - numbers with hyphens and a space"
+"5055011111111111", "FAIL", "VISA test card - The initial 5 makes it look like a Mastercard"

@@ -1,0 +1,4 @@
+"371449635398431", "PASS", "AMEX test card with numbers only"
+"3434 343434 34343", "PASS", "AMEX test card with spaces separating sections"
+"3711-443711-44376", "PASS", "AMEX test card with hyphens separating sections"
+"341134113411347", "PASS", "AMEX test card with numbers only"

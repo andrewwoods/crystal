@@ -1,0 +1,8 @@
+"5500005555555559", "PASS", "Mastercard Test card - Numbers only"
+"5555 5555 5555 5557", "PASS", "Mastercard Test card - "
+"5454-5454-5454-5454", "PASS", "Mastercard Test card - "
+"4555515555555551", "FAIL", "Mastercard Test card - Starts with a 4 - looks like a Visa"
+"5405222222222226", "PASS", "Mastercard Test card - "
+"5478050000000007", "PASS", "Mastercard Test card - "
+"5111005111051128", "PASS", "Mastercard Test card - "
+"5112345112345114", "PASS", "Mastercard Test card - "
