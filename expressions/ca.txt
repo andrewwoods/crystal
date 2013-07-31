@@ -1,0 +1,21 @@
+
+CA - Canada Regular Expressions
+================================================================================
+
+Postal Codes 
+--------------------------------------------------------------------------------
+http://www.infinitegravity.ca/postalcodeformat.htm
+
+Loose /^\w\d\w \d\w\d$/
+Strict /^[A|B|C|E|G|H|J|K|L|M|N|P|R|S|T|V|X|Y]\d[A-Z] \d[A-Z]\d$/
+
+
+
+Phone Numbers (Use the same rules the US)
+--------------------------------------------------------------------------------
+http://en.wikipedia.org/wiki/North_American_Numbering_Plan
+
+Loose /^(?:\+1\-)?\d{3}-\d{3}-\d{4}$/
+Strict /^(\+?1[\-\s\.])?[2-9]\d\d[\-\s\.][2-9]\d\d[\-\s\.]\d{4}$/ 
+
+
