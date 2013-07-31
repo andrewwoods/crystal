@@ -1,0 +1,16 @@
+
+UK 
+================================================================================
+
+Postal Code
+--------------------------------------------------------------------------------
+http://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom
+
+^([A-Z]{1,2}\d\w?) \d[A-Z][A-Z]$
+
+
+Phone numbers
+--------------------------------------------------------------------------------
+http://en.wikipedia.org/wiki/Telephone_numbers_in_the_United_Kingdom
+
+
