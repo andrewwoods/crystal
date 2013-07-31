@@ -44,4 +44,16 @@ check for characters and punctuation in the correct places.
 		* ip6.csv [needed]
 
 
+Get some help at the command line. Both long and short options are supported
+
+	$ php test.php -h 
+	$ php test.php --help 
+
+This is an example of how to test a regex against a file of test data with US zip codes. 
+The single quotes around the regex are important, to prevent any special shell
+characters meanings. The / characters around the regex are delimiters. PHP uses
+them to determine the beginning and end of the regex.
+
+	$ php test.php --regex '/^\d{5}([\-]\d{4})?$/' --file data/us/postal.csv
+
 
