@@ -8,6 +8,9 @@ postal codes, hostnames, ip addresses, email addresses, credit card numbers.
 I'd like there also to be data files that contain both known good and bad data 
 to be used with automated tests.
 
+**Help me to improve this project. It needs more test data, more regular expressions,
+and more people trying them out.**
+
 I'm thinking there should be 2 modes of checking - loose and strict. Emails are 
 a good example. A strict email regex would be RFC compliant, while loose would 
 check for characters and punctuation in the correct places. 
