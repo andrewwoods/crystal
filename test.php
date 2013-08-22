@@ -63,11 +63,25 @@ class App
 	public function help()
 	{
 		echo "help for running tests.\n";
-		echo "=======================\n";
-		echo "directions go here.\n";
+		echo "==================================================================\n";
+		echo "-f filename      specify the data file you want to test.\n";
+		echo "--file           same as -f .\n";
+		echo "\n";
+		echo "-h               show how to use this script\n";
+		echo "--help           same as -h .\n";
+		echo "\n";
+		echo "-r regex         specify the data file you want to test. It is\n";
+		echo "                 best to put the regex in single quotes to prevent\n";
+		echo "                 the shell from interpreting any special characters\n";
+		echo "\n";
+		echo "\n";
+		echo "--regex          same as -r .\n";
+		echo "\n";
+		echo "\n";
 		echo "$ php test.php -r|--regex '/\d{5}/' -f|--file data/us/zip.txt\n";
-		echo "=======================\n";
+		echo "===================================================================\n";
 	}
+
 
 }
 
@@ -109,6 +123,7 @@ else
 	print_r($opt);
 	exit;
 }
+
 
 
 
