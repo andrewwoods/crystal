@@ -17,8 +17,8 @@ check for characters and punctuation in the correct places.
 
 * expressions
 	* commerce.txt 
-		* ISBN
-		* UPC
+		* ISBN [needed]
+		* UPC [needed]
 		* Credit Card Numbers
 	* [country code].txt
 		* phone
@@ -27,12 +27,12 @@ check for characters and punctuation in the correct places.
 		* email
 		* hostnames
 		* ip4 addresses
-		* ip6 addresses
+		* ip6 addresses [needed]
 * data
 	* commerce  [needed]
 		* isbn.csv  [needed]
 		* upc.csv [needed]
-		* credit-card.csv [needed]
+		* credit-card.csv
 	* [country code]  {New countries needed all the time}
 		* phone-loose.csv
 		* postal.csv
@@ -40,7 +40,7 @@ check for characters and punctuation in the correct places.
 	* internet
 		* email.csv [needed]
 		* hostnames.csv [needed]
-		* ip4.csv 
+		* ip4.csv
 		* ip6.csv [needed]
 
 
